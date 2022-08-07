@@ -2,3 +2,6 @@
 env/
 .idea/
 
+# temp database
+src/db.sqlite3
+

@@ -9,7 +9,7 @@ class BlogPost(models.Model):
     title = models.CharField(max_length=255, unique=True, verbose_name="Titre")
     sub_title = models.CharField(max_length=255, blank=True, verbose_name="Sous titre")
     content = models.TextField(verbose_name="Contenu")
-    published = models.BooleanField(default=True, verbose_name="Publié")
+    published = models.BooleanField(default=False, verbose_name="Publié")
     last_edit = models.DateTimeField(auto_now=True, verbose_name="Dernière modif")
     publish_date = models.DateField(blank=True, null=True, verbose_name="Publié le")
 

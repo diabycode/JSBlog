@@ -1,0 +1,17 @@
+
+<!-- view title -->
+{% block title %} <title>Articles</title> {% endblock %}
+
+{% block body %}
+
+    <h1>Articles du blog</h1>
+
+    <!--  posts listing  -->
+    {% for post in posts %}
+
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content|truncatewords:100 }}</p>
+    {% endfor %}
+
+{% endblock %}
+

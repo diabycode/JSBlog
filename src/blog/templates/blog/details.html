@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+<!-- view title -->
+{% block title %} <title> {{ post.slug }} </title> {% endblock %}
+
+{% block body %}
+
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+
+{% endblock %}
+

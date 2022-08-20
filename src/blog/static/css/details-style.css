@@ -1,0 +1,16 @@
+
+.content > .post > .infos{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+    color: #3A3A3A;
+}
+
+.content > .post > .infos > p{
+    font-size: 15px;
+}
+
+.content > .post > .infos > p > span{
+    text-decoration: underline;
+
+}

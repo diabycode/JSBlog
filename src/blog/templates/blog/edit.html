@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+<!-- style sheet -->
+{% block style-sheet %}
+    <link rel="stylesheet" href="{% static 'css/home-style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/create-edit-style.css' %}">
+{% endblock %}
+
+<!-- view title -->
+{% block title %} <title>modifier</title> {% endblock %}
+
+{% block body %}
+
+    <div class="form-contener">
+
+        <div class="form-title">
+            <h2>Modifier l'article</h2>
+        </div>
+
+        <form action="" method="POST">
+            {% csrf_token %}
+            {{ form.as_div }}
+
+            <input type="submit" value="Modifier">
+        </form>
+
+    </div>
+
+{% endblock %}
+

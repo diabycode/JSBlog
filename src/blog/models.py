@@ -2,6 +2,8 @@ from django.contrib.auth.models import User
 from django.db import models
 from django.utils.text import slugify
 
+from django.contrib.auth.urls import urlpatterns
+
 
 class BlogPost(models.Model):
     author = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True, verbose_name="Auteur")
@@ -20,6 +22,7 @@ class BlogPost(models.Model):
         return self.title
 
     def save(self, *args, **kwargs):
+        self.slug = slugify(self.slug)
         if not self.slug:
             self.slug = slugify(self.title)
         super().save(*args, **kwargs)

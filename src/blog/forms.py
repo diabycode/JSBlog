@@ -3,7 +3,7 @@ from django import forms
 from .models import BlogPost
 
 
-class BlogPostCreateFrom(forms.ModelForm):
+class BlogPostCreateForm(forms.ModelForm):
 
     class Meta:
         model = BlogPost
@@ -11,7 +11,40 @@ class BlogPostCreateFrom(forms.ModelForm):
             "title",
             "sub_title",
             "content",
-            "author"
-        )
+            "author",
 
+        )
+        widget = {
+            "title": forms.TextInput(
+                attrs={
+                    "placeholder": "Hello",
+                }
+            ),
+
+        }
+
+
+class MyDateInput(forms.DateInput):
+    input_type = "date"
+
+
+class BlogPostEditForm(forms.ModelForm):
+
+    class Meta:
+        model = BlogPost
+        fields = (
+            "title",
+            "sub_title",
+            "content",
+            "published",
+            "author",
+        )
+        widgets = {
+            "title": forms.TextInput(
+                attrs={
+                    "placeholder": "Entrer un titre pour l'article",
+                }
+            ),
+            "publish_date": MyDateInput(),
+        }
 

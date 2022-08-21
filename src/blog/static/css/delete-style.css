@@ -1,0 +1,48 @@
+
+:root {
+    --backgColor: #EFF0F1;
+    --darkText: #191717;
+
+    --siteAccentColor: #2980B9;
+}
+
+
+.post-to-del{
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.post-to-del > h3{
+    font-weight: 400;
+    font-size: 21px;
+}
+.post-to-del > p{
+    font-size: 17px;
+}
+
+.post-to-del > h4{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.content > h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+    color: #797878;
+
+}
+
+input{
+    padding: 10px 25px;
+    background-color: #E74C3C;
+    color: var(--backgColor);
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+

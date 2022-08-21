@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="{% static 'css/create-edit-style.css' %}">
 {% endblock %}
 
+<!-- menu -->
+{% block menu %}
+    <a href="{% url 'blog:home' %}">Annuler</a>
+{% endblock %}
+
 <!-- view title -->
 {% block title %} <title>modifier</title> {% endblock %}
 

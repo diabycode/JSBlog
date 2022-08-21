@@ -10,6 +10,11 @@
 <!-- view title -->
 {% block title %} <title>créer</title> {% endblock %}
 
+<!-- menu -->
+{% block menu %}
+    <a href="{% url 'blog:home' %}">Annuler</a>
+{% endblock %}
+
 {% block body %}
         <div class="form-contener">
 

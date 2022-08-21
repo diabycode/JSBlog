@@ -1,23 +1,32 @@
 {% extends "base.html" %}
+{% load static %}
 
 <!-- view title -->
 {% block title %} <title>Supprimer</title> {% endblock %}
+{% block style-sheet %}
+    <link rel="stylesheet" href="{% static 'css/home-style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/delete-style.css' %}">
+{% endblock %}
+
+<!-- menu -->
+{% block menu %}
+    <a href="{% url 'blog:home' %}">Annuler</a>
+{% endblock %}
 
 {% block body %}
 
-    <h1>Supprimer un article</h1>
+    <h2>Êtes vous sûr de vouloir supprimer cet article ?</h2>
 
     <!--  posts  -->
-    <h3>{{ post.title }}</h3>
-    <h4>{{ post.sub_title }}</h4>
-    <p>{{ post.content|truncatewords:100 }}</p>
-
-    <p>Voulez-vous vraiment supprimer l'article ?</p>
+    <div class="post-to-del">
+        <h3>{{ post.title }}</h3>
+        <h4>{{ post.sub_title }}</h4>
+        <p>{{ post.content|truncatewords:35 }}</p>
+    </div>
     <form method="POST">
 
         {% csrf_token %}
         <input type="submit" value="Oui supprimer" />
-        <a href="{% url 'blog:home' %}">Annuler l'action</a>
 
     </form>
 

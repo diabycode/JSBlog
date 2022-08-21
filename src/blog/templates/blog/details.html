@@ -25,7 +25,7 @@
             </div>
 
             <h4>{{ post.sub_title }}</h4>
-            <p>{{ post.content }}</p>
+            <p>{{ post.content|safe }}</p>
 
             <div class="infos">
                 <p> <span>Date de publication</span>: {{ date_formated }}</p>

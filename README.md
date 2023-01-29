@@ -64,7 +64,7 @@ Vous êtes maintenant prêt à manipuler l'environnement Django.
 
 Ça y est, vous êtes maintenant en mesure d’explorer l’app JSBlog. Vous avez juste qu'à visiter l’url du serveur local ‘[http://localhost:8000/](http://localhost:8000/)’ ou ‘[http://127.0.0.1:8000/](http://127.0.0.1:8000/)’ .
 
-![Untitled](https://www.notion.so/Prise-de-note-382e4596e6ba4c679e6bdf8319259f00#465ed4199f844bfdac11c2421313e061)
+![image](https://user-images.githubusercontent.com/97140632/215323377-4b9140f6-2456-4fe6-a3bb-a7f076fbd6d0.png)
 
 <aside>
 💡 Il faut savoir que je n'ai pas voulu surcharger le repo en ajoutant le fichier de la base de données. Alors, de base, il n'y aura rien d'affiché sur le blog, puisque la nouvelle base de données générée chez vous ne contiendra rien du tout.

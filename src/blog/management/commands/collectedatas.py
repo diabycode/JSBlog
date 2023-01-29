@@ -75,6 +75,7 @@ class Command(BaseCommand):
         for post in POSTS:
             p = create_post(author=self.author, title=post["title"], sub_title=post["sub_title"],
                             content=post['content'])
+            p.published = True
             p.save()
             self.stdout.write(f"Post '{p.title[:15]}...' with content '{p.content[:20]}...' created")
 

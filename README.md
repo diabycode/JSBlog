@@ -4,7 +4,6 @@ Mini blog créé avec Python et le célèbre Framework web Django.
 
 **Installation & utilisation**
 
- 
 
 <aside>
 💡 Petit disclaimer, 
@@ -81,7 +80,7 @@ py .\src\manage.py collectedatas
 
 Relancez le serveur local et revisitez le site, vous constaterai un changement.  
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d408a0e3-5a04-4269-9a85-821ee4e5a702/Untitled.png)
+![image](https://user-images.githubusercontent.com/97140632/215323442-6e3c826f-4347-4095-a8e7-1ae1b31e1e3f.png)
 
 Pour ajouter du contenu personnalisé et d’une manière plus graphique, accéder a linterface d'administration de l’app. Pour ce faire devez créer ce qu’on appel un super user. Arrêtez encore une fois le serveur et procédez de la manière suivante:
 
@@ -93,18 +92,18 @@ Surviendra différents prompts, entrez les infos nécessaires pour valider la cr
 
 Relancez le [localhost](http://localhost) et accédez à l'url ‘[http://127.0.0.1:8000/](http://127.0.0.1:8000/)jsb-admin149/’, 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ecf9a86c-8ca7-41dd-84f9-e31a335e40f2/Untitled.png)
+![image](https://user-images.githubusercontent.com/97140632/215323463-e94c74b9-f875-4bdf-be7c-2bab410375d4.png)
 
 Authentifiez-vous avec vos infos et accéder a linterface d'administration.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10d82fe4-0531-490c-9db9-ac43b4dc5843/Untitled.png)
+![image](https://user-images.githubusercontent.com/97140632/215323483-e4c1f1aa-7594-46b2-b91c-8842a7e366a7.png)
 
 Commencer à administrer le site comme bon vous semble.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fe4c8b2e-d5de-4926-af4b-ef6d3bf4b98c/Untitled.png)
+![image](https://user-images.githubusercontent.com/97140632/215323502-702db25f-6327-481f-a6a8-06224f65a5cc.png)
 
 De plus, après connexion vous constaterai de retour sur le site, que les articles y seront directement modifiable.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a6fcf138-30a6-4f56-89fc-a0b8519fd86a/Untitled.png)
+![image](https://user-images.githubusercontent.com/97140632/215323515-28868581-7f5d-44fc-a2d7-4efb741f4c0f.png)
 
 Vous pourrai donc créer, modifier et supprimer du contenu directement sur le blog.

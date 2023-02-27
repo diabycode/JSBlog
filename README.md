@@ -8,9 +8,6 @@ Mini blog créé avec Python et le célèbre Framework web Django.
 <aside>
 💡 Petit disclaimer, 
 pour installer le projet chez vous de manière confortable, soyez sûr d'être à l'aise avec les environnements Python, Django et autres… Car cet didacticiel n'entre dans aucun details techniques.
-
-Aussi la méthode d’installation proposée est celle qui marche pour Windows. Alors n’hésitez pas à faire quelques recherches pour trouver l’équivalent si vous êtes sur un autre système.
-
 </aside>
 
 

@@ -3,7 +3,7 @@
 Mini blog créé avec Python et le célèbre Framework web Django.
 
 
-### Installation & utilisation
+## Installation & utilisation
 
 
 <aside>
@@ -12,7 +12,7 @@ pour installer le projet chez vous de manière confortable, soyez sûr d'être �
 </aside>
 
 
-###### Installez/Clonez le projet chez vous 
+### Installez/Clonez le projet chez vous 
 -> (aide: https://github.com/diabycode/InstallGitHubProjet)
     
 

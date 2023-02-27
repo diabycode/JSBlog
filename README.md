@@ -12,8 +12,8 @@ pour installer le projet chez vous de manière confortable, soyez sûr d'être �
 </aside>
 
 
-#### Installez/Clonez le projet chez vous 
--> (aide: https://github.com/diabycode/InstallGitHubProjet)
+1. #### Installez/Clonez le projet chez vous 
+    (aide: https://github.com/diabycode/InstallGitHubProjet)
     
 
 Vous êtes maintenant prêt à manipuler l'environnement Django.

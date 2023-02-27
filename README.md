@@ -13,37 +13,8 @@ Aussi la méthode d’installation proposée est celle qui marche pour Windows. 
 
 </aside>
 
-- Ouvrez un nouveau terminal et clonez le repo chez vous:
-    
-    ```bash
-    git clone <lien du repo>
-    ```
-    
-    Assurez-vous d'avoir git d'installé sur votre machine
-    
-- Un nouveau dossier sera créé dans le répertoire courant (JSBlog). Rendez-vous à l’intérieur avec la syntaxe:
-    
-    ```bash
-    cd .\JSBlog
-    ```
-    
-- Créer un nouvel environnement virtuel python
-    
-    ```bash
-    python -m venv env
-    ```
-    
-- Activez l’environnement virtuel
-    
-    ```bash
-    .\env\Script\activate
-    ```
-    
-- Installez les dépendances du projet avec cette syntaxe
-    
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+- Installez/Clonez le projet chez vous (aide: https://github.com/diabycode/InstallGitHubProjet)
     
 
 Vous êtes maintenant prêt à manipuler l'environnement Django.

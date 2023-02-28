@@ -14,13 +14,13 @@ _Mini blog créé avec Python et le célèbre Framework web Django._
 
 Vous êtes maintenant prêt à manipuler l'environnement du projet.
 
-#### 1. **_Effectuer les différentes migrations vers la base de donnée_**
+#### 2. **_Effectuer les différentes migrations vers la base de donnée_**
     
 ```bash
 py .\src\manage.py migrate
 ```
     
-#### 1. **_Lancer le serveur local_**
+#### 3. **_Lancer le serveur local_**
     
 ```bash
 py .\src\manage.py runserver

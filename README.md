@@ -1,28 +1,26 @@
-# JSBlog
+# **JSBlog**
 
-Mini blog créé avec Python et le célèbre Framework web Django.
+_Mini blog créé avec Python et le célèbre Framework web Django._       
 
+<aside> ------ </aside>
 
-## Installation & utilisation
-<aside>
-💡 Petit disclaimer,  
-pour installer le projet chez vous de manière confortable, soyez sûr d'être à l'aise avec les environnements Python, Django et autres… Car cet didacticiel n'entre dans aucun details techniques.
-</aside>
+### **Installation**
+Petit disclaimer, pour installer le projet chez vous de manière confortable, soyez sûr d'être à l'aise avec les environnements Python, Django et autres… Car cet didacticiel n'entre dans aucun details techniques.  
 
 
-1. #### Installez/Clonez le projet chez vous 
-    (aide: https://github.com/diabycode/InstallGitHubProjet)
+#### 1. _**Installez/Clonez le projet chez vous**_
+>(aide: https://github.com/diabycode/InstallGitHubProjet)
     
 
-Vous êtes maintenant prêt à manipuler l'environnement Django.
+Vous êtes maintenant prêt à manipuler l'environnement du projet.
 
-- Effectuer les différentes migrations vers la base de donnée
+#### 1. **_Effectuer les différentes migrations vers la base de donnée_**
     
     ```powershell
     py .\src\manage.py migrate
     ```
     
-- Lancer le serveur local
+#### 1. **_Lancer le serveur local_**
     
     ```powershell
     py .\src\manage.py runserver
@@ -33,12 +31,12 @@ Vous êtes maintenant prêt à manipuler l'environnement Django.
 
 ![image](https://user-images.githubusercontent.com/97140632/215323377-4b9140f6-2456-4fe6-a3bb-a7f076fbd6d0.png)
 
-<aside>
+<aside> ----- </aside>
+
+### **Utilisation**
 💡 Il faut savoir que je n'ai pas voulu surcharger le repo en ajoutant le fichier de la base de données. Alors, de base, il n'y aura rien d'affiché sur le blog, puisque la nouvelle base de données générée chez vous ne contiendra rien du tout.
 
 Pour remédier à ce problème, j'ai mis en place une commande pour générer du faux contenu déjà préconçu.
-
-</aside>
 
 Arrêter le serveur avec ‘ctrl c’ et exécutez la commande ‘**collectedatas**’:
 
